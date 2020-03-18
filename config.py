@@ -9,7 +9,8 @@ class Config(object):
 
     #数据库
     SQLALCHEMY_DATABASE_URI = "mysql://root:mysql@localhost:3306/aijia"
-    SQLALCHMY_TRACK_MODIFIONS = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
+
 
     # redis
     REDIS_HOST="127.0.0.1"
