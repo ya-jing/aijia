@@ -232,3 +232,39 @@ INFO _internal.py:113 127.0.0.1 - - [21/Mar/2020 22:23:39] "[37mGET /static/js/
 INFO _internal.py:113 127.0.0.1 - - [21/Mar/2020 22:23:40] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [21/Mar/2020 22:23:41] "[37mGET /api/v1.0/image_codes/480c0efe-2d07-4d5c-a286-0e87fde54cc9 HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [21/Mar/2020 22:23:41] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 281-573-790
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 281-573-790
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:24:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:25:16] "[35m[1mGET /api/vi.0/sms_codes/%3C13453510539%3E?image_code=1234&image_code_id=5 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:25:18] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:25:18] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:25:18] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:25:18] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:25:20] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:25:21] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'D:\\Python36\\lib\\socket.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 281-573-790
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:26:40] "[35m[1mGET /api/vi.0/sms_codes/%3C13453510539%3E?image_code=1234&image_code_id=5 HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:26:41] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:26:41] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:26:41] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:26:41] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:26:41] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:26:41] "[37mGET /api/vi.0/sms_codes/%3C13453510539%3E?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 281-573-790
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:36:19] "[33mGET /api/vi.0/sms_codes/%3C13453510539%3E?image_code=1234&image_code_id=5 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:36:21] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:36:21] "[33mGET /api/vi.0/sms_codes/%3C13453510539%3E?image_code=1234&image_code_id=5 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Mar/2020 11:36:22] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
