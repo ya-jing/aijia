@@ -47,19 +47,22 @@ class CCP(object):
         return cls.instance
 
     def send_template_sms(self, to, datas, temp_id):
+        print('to, datas, temp_id',to, datas, temp_id)
         """"""
         result = self.rest.sendTemplateSMS(to, datas, temp_id)
+
         # for k, v in result.iteritems():
         #
         #     if k == 'templateSMS':
         #         for k, s in v.iteritems():
-        #             print '%s:%s' % (k, s)
+        #             print ('%s:%s' % (k, s))
         #     else:
-        #         print '%s:%s' % (k, v)
+        #         print ('%s:%s' % (k, v))
         # smsMessageSid:ff75e0f84f05445ba08efdd0787ad7d0
         # dateCreated:20171125124726
         # statusCode:000000
         status_code = result.get("statusCode")
+        print("status_code",status_code)
         if status_code == "000000":
             # 表示发送短信成功
             return 0
