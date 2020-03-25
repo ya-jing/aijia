@@ -50,6 +50,7 @@ class CCP(object):
         print('to, datas, temp_id',to, datas, temp_id)
         """"""
         result = self.rest.sendTemplateSMS(to, datas, temp_id)
+        print('result',result)
 
         # for k, v in result.iteritems():
         #

@@ -265,6 +265,7 @@ class REST:
         data = ''
         try:
             res = urllib2.urlopen(req)
+            print(res)
             data = res.read()
             res.close()
 

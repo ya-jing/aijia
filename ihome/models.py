@@ -3,7 +3,7 @@
 from datetime import datetime
 # from ihome import constants
 from . import db
-
+from werkzeug.security import generate_password_hash,check_password_hash
 
 class BaseModel(object):
     """模型基类，为每个模型补充创建时间与更新时间"""
@@ -27,6 +27,23 @@ class User(BaseModel, db.Model):
     houses = db.relationship("House", backref="user")  # 用户发布的房屋
     orders = db.relationship("Order", backref="user")  # 用户下的订单
 
+    @property
+    def password(self):
+        """读取password属性时被调用"""
+        raise AttributeError("不可读")
+
+    @password.setter
+    def password(self, passwd):
+        """设置密码时被调用,设置密码加密"""
+        self.password_hash = generate_password_hash(passwd)
+
+    def check_password(self,passwd):
+        """
+        检验密码的正确性
+        :param passwd:用户登录时填写的原始密码
+        :return:如果正确，返回True，否则返回False
+        """
+        return check_password_hash(self.password_hash,passwd)
 
 class Area(BaseModel, db.Model):
     """城区"""
